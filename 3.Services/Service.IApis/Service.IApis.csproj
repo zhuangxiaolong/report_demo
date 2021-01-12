@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <Configurations>Debug;Release;DEV;UAT;RPOD</Configurations>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\1.Infrastructure\Domain.Core\Domain.Core.csproj" />
+    <ProjectReference Include="..\..\4.UI\UI.Dtos\UI.Dtos.csproj" />
+  </ItemGroup>
+
+</Project>
